@@ -1,0 +1,49 @@
+
+.footer {
+    background-color: #111;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.responsive {
+    padding: 20px;
+    padding-left: 150px;
+}
+
+p {
+    color: white;
+    font-size: small;
+}
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidenav a, .sidenav button {float: left;text-align: center;}
+    .sidenav img {display: block;
+      margin-left: auto;
+      margin-right: auto;}
+    div.main {margin-left: 0;}
+    div.footer {width: 100%; height: auto; position: relative;}
+    .responsive {
+        padding-left: 0px;
+    }
+    .location {
+      margin-left: 20px;
+    }
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a, .sidenav button {
+      text-align: center;
+      float: none;
+    }
+  }

@@ -1,0 +1,12 @@
+p {
+    color: black;
+}
+
+.responsive-img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer p {
+    color: white;
+}

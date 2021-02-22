@@ -4,6 +4,8 @@ import ExpandMore from "@material-ui/icons/ExpandMore";
 import Instagram from "@material-ui/icons/Instagram";
 import YouTube from "@material-ui/icons/YouTube";
 import {CardDeck, Card} from 'react-bootstrap';
+import Footers from "../../components/Footer";
+
 
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -31,6 +33,7 @@ class Profil extends Component {
                     dengan membangun konsep syariah. 
                 </p>
           </div>
+          <Footers/>
         </div>
       </div>
     );

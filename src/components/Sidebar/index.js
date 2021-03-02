@@ -29,7 +29,7 @@ const Sidebars = (props) => {
   const [active, setActive] = useState();
   return(
     <div class="sidenav">
-        <img src={logo} style={{width:150, height:170}}/>
+        <a href="/"><img src={logo} style={{width:150, height:170}}/></a>
         <a href="/">Beranda</a>
         <button class="dropdown-btn">Profil Kami
           <ExpandMore/>

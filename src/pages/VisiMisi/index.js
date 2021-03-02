@@ -26,15 +26,16 @@ class VisiMisi extends Component {
           <img
             src={build1}
             alt="banner"
-            style={{ height: 660, width: "100%" }}
+            className="responsive-img"
+            // style={{ height: 660, width: "100%" }}
           />
           <div style={{paddingTop:20, textAlign:'center', padding:20, backgroundColor:'white'}}>
                 <h2>PT Midland Kreator Properti</h2>
-                <img className="responsive-img" src={visi}/>
+                <img className="responsive-visi" src={visi}/>
                 <p>Kami adalah perusahaan yanag bergerak di bidang properti pembangunan
                     dengan membangun konsep syariah. 
                 </p>
-                <img className="responsive-img" src={misi}/>
+                <img className="responsive-visi" src={misi}/>
                 <p>1. Ini adalah misi nomor satu</p>
                 <p>2. Ini adalah misi nomor dua</p>
                 <p>3. Ini adalah misi nomor tiga</p>

@@ -2,11 +2,28 @@ p {
     color: black;
 }
 
-.responsive-img {
-    width: 200px;
-    height: 200px;
-}
-
 .footer p {
     color: white;
+}
+
+img.responsive-img {
+    height: 660px;
+    width: 100%;
+}
+
+img.responsive-visi {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width: 600px){
+	img.responsive-img{
+		height: 400px;
+		width: 100%;
+	  }
+
+    img.responsive-visi {
+        height: 200px;
+        width: 200px;
+    }
 }

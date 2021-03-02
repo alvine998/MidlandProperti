@@ -3,7 +3,7 @@ img.responsive-img {
     width: 100%;
 }
 
-img.responsive-logo {
+img.profil {
     height: 200px;
     width: 200px;
 }
@@ -14,7 +14,7 @@ img.responsive-logo {
 		width: 100%;
 	  }
 
-    img.responsive-logo {
+    img.profil {
         height: 200px;
         width: 200px;
     }

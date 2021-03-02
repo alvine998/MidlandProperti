@@ -8,7 +8,7 @@
     padding-bottom: 20px;
 }
 
-.responsive-img {
+img.responsive-img {
 	height: 660px;
 	width: 100%;
 }
@@ -36,8 +36,8 @@
     color: white;
 }
 
-@media screen and (max-width: 700px){
-	.responsive-img{
+@media screen and (max-width: 400px){
+	img.responsive-img{
 		height: 400px;
 		width: 100%;
 	  }

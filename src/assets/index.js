@@ -15,9 +15,11 @@ import karir from "./images/Karir.png";
 import hubungi from "./images/Hubungi.png";
 import investasi from "./images/Investasi.png";
 import callcenter from "./images/Callcenter.png";
+import home1 from './images/home1.jpeg';
 
 export {
   perum,
+  home1,
   perum2,
   perumahan,
   logo,

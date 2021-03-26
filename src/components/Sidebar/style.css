@@ -1,0 +1,115 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 20px 8px 6px 16px;
+    font-family: 'Calibri';
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .sidenav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .transparent {
+    padding: 20px 8px 6px 16px;
+    font-family: 'Calibri';
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #DBA622;
+  }
+  
+  h2 {
+    font-family: 'Calibri';
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 0px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: black;
+    color: #818181;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #050505;
+    padding-left: 8px;
+    transition: all .5s ease;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidenav a, .sidenav button {float: left;text-align: center;}
+    .sidenav img {display: block;
+      margin-left: auto;
+      margin-right: auto;}
+    div.main {margin-left: 0;}
+    main.footer {width: 100%; height: auto; position: relative;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a, .sidenav button {
+      text-align: center;
+      float: none;
+    }
+  }
+  

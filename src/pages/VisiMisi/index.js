@@ -12,13 +12,35 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // import image
 import { build1, imgProfil, misi, perum, perum2, perumahan, visi } from "../../assets";
+import axios from "axios";
 
 class VisiMisi extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      profiles:[]
+    };
   }
+
+  componentDidMount(){
+    axios({
+      method:"GET",
+      url:"http://localhost:8000/profil/",
+      data:this.state
+    })
+    .then(res => {
+      this.setState({
+        profiles: res.data,
+      });
+      console.log(res.data);
+    })
+    .catch(e => {
+      console.log(e);
+    });
+  }
+
   render() {
+    const {profiles} = this.state;
     return (
       <div>
         <Sidebars />
@@ -32,14 +54,15 @@ class VisiMisi extends Component {
           <div style={{paddingTop:20, textAlign:'center', padding:20, backgroundColor:'white'}}>
                 <h2>PT Midland Kreator Properti</h2>
                 <img className="responsive-visi" src={visi}/>
-                <p>Kami adalah perusahaan yanag bergerak di bidang properti pembangunan
-                    dengan membangun konsep syariah. 
-                </p>
+                {profiles && profiles.map((datas) => (
+                  <p>{datas.visi}</p>
+                ))}
+
                 <img className="responsive-visi" src={misi}/>
-                <p>1. Ini adalah misi nomor satu</p>
-                <p>2. Ini adalah misi nomor dua</p>
-                <p>3. Ini adalah misi nomor tiga</p>
-                <p>4. Ini adalah misi nomor empat</p>
+
+                {profiles && profiles.map((datas) => (
+                  <p>{datas.misi}</p>
+                ))}
           </div>
           <Footers/>
         </div>

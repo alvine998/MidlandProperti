@@ -51,12 +51,15 @@ const Sidebars = (props) => {
         </div> */}
         <Dropdown>
           <Dropdown.Toggle className="dropdown-btn" style={{backgroundColor:'#050505'}} id="dropdown-basic">
-            Galeri
+            Our Project
           </Dropdown.Toggle>
 
           <Dropdown.Menu className="dropdown-container">
-            <Dropdown.Item href="/profil">Foto</Dropdown.Item>
-            <Dropdown.Item href="/profil">Video</Dropdown.Item>
+            <Dropdown.Item href="/warakas">Warakas</Dropdown.Item>
+            <Dropdown.Item href="/swasembada">Swasembada</Dropdown.Item>
+            <Dropdown.Item href="/bahari">Bahari</Dropdown.Item>
+            <Dropdown.Item href="/papanggo">Papanggo</Dropdown.Item>
+            <Dropdown.Item href="/cilincing">Cilincing</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <a href="/hubungikami">Hubungi Kami</a>

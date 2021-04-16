@@ -13,6 +13,10 @@ img.responsive-img {
 	width: 100%;
 }
 
+img.okImage {
+	height: 800px;
+}
+
 .float{
 	position:fixed;
 	width:60px;
@@ -40,5 +44,9 @@ img.responsive-img {
 	img.responsive-img{
 		height: 400px;
 		width: 100%;
+	  }
+	  img.okImage{
+		  height: 400px;
+		  width: 100%;
 	  }
 }

@@ -13,6 +13,11 @@ img.responsive-img {
 	width: 100%;
 }
 
+.toblue:hover {
+	color: blue;
+	transition: 0.25s ease;
+}
+
 img.okImage {
 	height: 800px;
 }

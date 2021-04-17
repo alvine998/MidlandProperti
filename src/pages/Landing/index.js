@@ -228,6 +228,12 @@ class Landing extends Component {
 								</Card>
 							</CardGroup>
 						</div>
+						<center style={{ paddingTop: 20, paddingBottom: 20 }}>
+							<a className="toblue" href="/ourproject/warakas" style={{ fontSize: 24, color: 'black' }}>
+								Lihat Project Lainnya
+							</a>
+						</center>
+						<hr/>
 
 						<div style={{ padding: 20 }}>
 							<center style={{ paddingBottom: 20 }}>
@@ -252,7 +258,7 @@ class Landing extends Component {
 						</div>
 
 						<center style={{ paddingTop: 20, paddingBottom: 20 }}>
-							<a href="/" style={{ fontSize: 24, color: 'black' }}>
+							<a className="toblue" href="/ourproject/swasembada" style={{ fontSize: 24, color: 'black' }}>
 								Lihat Project Lainnya
 							</a>
 						</center>

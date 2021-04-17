@@ -6,6 +6,11 @@ import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import VisiMisi from './pages/VisiMisi';
 import Sejarah from './pages/Sejarah';
 import Hubungi from './pages/Hubungi';
+import Warakas from './pages/Warakas';
+import Swasembada from './pages/Swasembada';
+import Bahari from './pages/Bahari';
+import Papanggo from './pages/Papanggo';
+import Cilincing from './pages/Cilincing';
 
 
 function App() {
@@ -26,6 +31,21 @@ function App() {
         </Route>
         <Route exact path="/hubungikami">
           <Hubungi/>
+        </Route>
+        <Route exact path="/ourproject/warakas">
+          <Warakas/>
+        </Route>
+        <Route exact path="/ourproject/swasembada">
+          <Swasembada/>
+        </Route>
+        <Route exact path="/ourproject/bahari">
+          <Bahari/>
+        </Route>
+        <Route exact path="/ourproject/papanggo">
+          <Papanggo/>
+        </Route>
+        <Route exact path="/ourproject/cilincing">
+          <Cilincing/>
         </Route>
       </Switch>
     </Router>

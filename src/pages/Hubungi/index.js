@@ -83,12 +83,12 @@ class Hubungi extends Component {
           <div
             style={{
               paddingTop: 20,
-              textAlign: "left",
+              textAlign: "center",
               padding: 20,
               backgroundColor: "white",
             }}
           >
-              <Form style={{paddingLeft:200, paddingRight:200}}>
+              {/* <Form style={{paddingLeft:200, paddingRight:200}}>
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Nama</Form.Label>
                   <Form.Control type="text" placeholder="Nama" value={this.state.nama} onChange={this.handleNama} />
@@ -104,7 +104,15 @@ class Hubungi extends Component {
                 <Button onClick={this.handleSubmit} variant="primary" size="lg" block>
                     Kirim
                 </Button>
-              </Form>
+              </Form> */}
+              <h2>Silahkan Menghubungi Nomor Dibawah ini:</h2>
+              <h3>Ikhna Abdul Kholik : 081322986243</h3>
+              <h3>Sigit Muhammad : 082121951421</h3>
+              <hr/>
+              <h2>Atau Hubungi Email Dibawah ini:</h2>
+              <h3>info@midlandproperti.com</h3>
+              <h3>ikhnakholik@midlandproperti.com</h3>
+              <h3>customer-care@midlandproperti.com</h3>
           </div>
 
           {/* Ini Footer */}

@@ -20,9 +20,9 @@ const Sidebars = (props) => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu className="dropdown-container">
-            <Dropdown.Item href="/profil">Profil</Dropdown.Item>
-            <Dropdown.Item href="/visimisi">Visi & Misi</Dropdown.Item>
-            <Dropdown.Item href="/sejarah">Sejarah</Dropdown.Item>
+            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Profil</Dropdown.Item>
+            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Visi & Misi</Dropdown.Item>
+            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Sejarah</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Struktur Perusahaan</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Penghargaan</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Mitra</Dropdown.Item>
@@ -55,11 +55,11 @@ const Sidebars = (props) => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu className="dropdown-container">
-            <Dropdown.Item href="/warakas">Warakas</Dropdown.Item>
-            <Dropdown.Item href="/swasembada">Swasembada</Dropdown.Item>
-            <Dropdown.Item href="/bahari">Bahari</Dropdown.Item>
-            <Dropdown.Item href="/papanggo">Papanggo</Dropdown.Item>
-            <Dropdown.Item href="/cilincing">Cilincing</Dropdown.Item>
+            <Dropdown.Item href="/ourproject/warakas">Warakas</Dropdown.Item>
+            <Dropdown.Item href="/ourproject/swasembada">Swasembada</Dropdown.Item>
+            <Dropdown.Item href="/ourproject/bahari">Bahari</Dropdown.Item>
+            <Dropdown.Item href="/ourproject/papanggo">Papanggo</Dropdown.Item>
+            <Dropdown.Item href="/ourproject/cilincing">Cilincing</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <a href="/hubungikami">Hubungi Kami</a>

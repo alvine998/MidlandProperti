@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import { hargasw, perum2, perumahan, speksw, sw470, sw570 } from '../../assets';
+import { hargasw, perum2, perumahan, sky1, speksw, sw470, sw570 } from '../../assets';
 import Sidebars from '../../components/Sidebar';
 import './style.css';
 
@@ -14,7 +14,7 @@ class Swasembada extends Component {
             <div>
                 <Sidebars/>
                 <div className="main">
-                    <img src={perumahan} alt="swasembada" className="responsive-img"/>
+                    <img src={sky1} alt="swasembada" className="responsive-img"/>
                     <h2 style={{textAlign:'center'}}>Swasembada Project</h2>
                     <hr/>
                     <div style={{padding:50}}>

@@ -42,12 +42,26 @@ import award1 from './images/award/award1.jpeg';
 import award2 from './images/award/award2.jpeg';
 import award3 from './images/award/award3.jpeg';
 import lgoo2 from './images/logo2.png';
-
-
+import flowsej from './images/flow.png';
+import sky1 from './images/sky1.jpg';
+import sky2 from './images/sky2.jpg';
+import cardaw1 from './images/award/cardaw1.png';
+import cardaw2 from './images/award/cardaw2.png';
+import sky3 from './images/sky3.jpg';
+import invest1 from './images/invest1.png';
+import invest2 from './images/invest2.png';
 
 
 export {
   perum,
+  sky3,
+  invest1,
+  invest2,
+  cardaw1,
+  cardaw2,
+  flowsej,
+  sky1,
+  sky2,
   lgoo2,
   award1,
   award2,

@@ -11,6 +11,8 @@ import Swasembada from './pages/Swasembada';
 import Bahari from './pages/Bahari';
 import Papanggo from './pages/Papanggo';
 import Cilincing from './pages/Cilincing';
+import Penghargaan from './pages/Award';
+import Investasi from './pages/Investasi';
 
 
 function App() {
@@ -46,6 +48,12 @@ function App() {
         </Route>
         <Route exact path="/ourproject/cilincing">
           <Cilincing/>
+        </Route>
+        <Route exact path="/penghargaan">
+          <Penghargaan/>
+        </Route>
+        <Route exact path="/investasi">
+          <Investasi/>
         </Route>
       </Switch>
     </Router>

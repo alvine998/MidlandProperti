@@ -8,6 +8,20 @@ img.responsive-logo {
     width: 200px;
 }
 
+.imgSej {
+    height: 500px;
+    width: 900px;
+}
+
+.para1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    font-size: medium;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 600px){
 	img.responsive-img{
 		height: 400px;
@@ -17,5 +31,19 @@ img.responsive-logo {
     img.responsive-logo {
         height: 200px;
         width: 200px;
+    }
+
+    .imgSej {
+        height: 200px;
+        width: 400px;
+    }
+
+    .para1 {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: justify;
+        font-size: small;
+        line-height: 1.5;
+        padding-bottom: 20px;
     }
 }

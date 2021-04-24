@@ -21,10 +21,10 @@ const Sidebars = (props) => {
 
           <Dropdown.Menu className="dropdown-container">
             <Dropdown.Item href="/profil">Profil</Dropdown.Item>
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Visi & Misi</Dropdown.Item>
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Sejarah</Dropdown.Item>
+            <Dropdown.Item href="/visimisi">Visi & Misi</Dropdown.Item>
+            <Dropdown.Item href="/sejarah">Sejarah</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Struktur Perusahaan</Dropdown.Item>
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Penghargaan</Dropdown.Item>
+            <Dropdown.Item href="/penghargaan">Penghargaan</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Mitra</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
@@ -41,7 +41,7 @@ const Sidebars = (props) => {
         </div> */}
         <a onClick={() => alert("Belum ada berita")} href="/">Berita</a>
         <a onClick={() => alert("Belum ada lowongan")} href="/">Karir</a>
-        <a onClick={() => alert("Silahkan menuju halaman hubungi kami untuk sementara atau melalui whatsapp yang tersedia")} href="/">Investasi</a>
+        <a href="/investasi">Investasi</a>
         {/* <button class="dropdown-btn">Galeri
           <ExpandMore/>
         </button>

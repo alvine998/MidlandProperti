@@ -44,7 +44,7 @@ class VisiMisi extends Component {
     return (
       <div>
         <Sidebars />
-        <div class="main">
+        <div className="main">
           <img
             src={build1}
             alt="banner"
@@ -53,16 +53,29 @@ class VisiMisi extends Component {
           />
           <div style={{paddingTop:20, textAlign:'center', padding:20, backgroundColor:'white'}}>
                 <h2>PT Midland Kreator Properti</h2>
-                <img className="responsive-visi" src={visi}/>
-                {profiles && profiles.map((datas) => (
+                <div>
+                  <img className="responsive-visi" src={visi}/>
+                  <h4 className="para1">
+                    Menjadi salah satu dari 10 pengembang terbaik dan terpercaya di Indonesia dengan menerapkan konsep
+                    syariah, serta mengedepankan kualitas, inovasi, dan ketepatan waktu demi memberikan pelayanan
+                    maksimal baik bagi investor maupun konsumen.
+                  </h4>
+                </div>
+                {/* {profiles && profiles.map((datas) => (
                   <p>{datas.visi}</p>
-                ))}
+                ))} */}
+                <div>
+                  <img className="responsive-visi" src={misi}/>
+                  <h4 className="para2">
+                    - Menghadirkan properti dengan harga terjangkau dan berkualitas <br/>
+                    - Menjadi solusi dalam mengatasi masalah sulitnya masyarakat dalam memiliki hunian <br/>
+                    - Mengedepankan nilai amanah dan jujur dalam memberikan pelayanan kepada investor dan konsumen
+                  </h4>
+                </div>
 
-                <img className="responsive-visi" src={misi}/>
-
-                {profiles && profiles.map((datas) => (
+                {/* {profiles && profiles.map((datas) => (
                   <p>{datas.misi}</p>
-                ))}
+                ))} */}
           </div>
           <Footers/>
         </div>

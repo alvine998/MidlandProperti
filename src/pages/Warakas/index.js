@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import { hargawar, perum2, spek300, warakas300, warakas4, warakas4_2, warakas500, warakasbelakang, warakasdepan } from '../../assets';
+import { hargawar, perum2, sky1, spek300, warakas300, warakas4, warakas4_2, warakas500, warakasbelakang, warakasdepan } from '../../assets';
 import Footers from '../../components/Footer';
 import Sidebars from '../../components/Sidebar';
 import './style.css';
@@ -16,7 +16,7 @@ class Warakas extends Component {
                 <Sidebars/>
                 <div className="main">
                     <img
-                        src={perum2}
+                        src={sky1}
                         alt="Warakas"
                         className="responsive-img"
                     />
@@ -75,7 +75,7 @@ class Warakas extends Component {
                     </div>
 
                     <hr/>
-                    <div style={{padding:50}}>
+                    <div style={{padding:50, paddingBottom:50}}>
                         <h2 style={{textAlign:'center', color:'gray'}}>Warakas Tahap 4</h2>
                         <CardGroup>
                             <Card>

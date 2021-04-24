@@ -11,9 +11,9 @@ import './style.css';
 import { makeStyles } from "@material-ui/core/styles";
 
 // import image
-import { build1, cardaw1, cardaw2, flowsej, imgProfil, invest1, invest2, investasi, misi, penghargaan, perum, perum2, perumahan, sejarah, sky3, visi } from "../../assets";
+import { build1, cardaw1, cardaw2, flowsej, imgProfil, misi, penghargaan, perum, perum2, perumahan, sejarah, visi } from "../../assets";
 
-class Investasi extends Component {
+class Penghargaan extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -24,16 +24,17 @@ class Investasi extends Component {
         <Sidebars />
         <div class="main">
           <img
-            src={sky3}
+            src={build1}
             alt="banner"
             className="responsive-img"
             // style={{ height: 660, width: "100%" }}
           />
           <div style={{paddingTop:20, textAlign:'center', padding:20, backgroundColor:'white'}}>
-                <img src={investasi} className="responsive-logo"/>
-                <div style={{paddingBottom:50}}>
-                  <img src={invest1} className="img1" />
-                  <img src={invest2} className="img2" />
+                <h2>PT Midland Kreator Properti</h2>
+                <img src={penghargaan} className="responsive-logo"/>
+                <div>
+                  <img src={cardaw1} className="img1" />
+                  <img src={cardaw2} className="img2" />
                 </div>
           </div>
           <Footers/>
@@ -43,4 +44,4 @@ class Investasi extends Component {
   }
 }
 
-export default Investasi;
+export default Penghargaan;

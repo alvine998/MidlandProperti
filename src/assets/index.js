@@ -41,12 +41,14 @@ import banner3m from './images/banner3m.jpg';
 import award1 from './images/award/award1.jpeg';
 import award2 from './images/award/award2.jpeg';
 import award3 from './images/award/award3.jpeg';
+import lgoo2 from './images/logo2.png';
 
 
 
 
 export {
   perum,
+  lgoo2,
   award1,
   award2,
   award3,

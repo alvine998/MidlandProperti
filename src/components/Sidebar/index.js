@@ -20,7 +20,7 @@ const Sidebars = (props) => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu className="dropdown-container">
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Profil</Dropdown.Item>
+            <Dropdown.Item href="/profil">Profil</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Visi & Misi</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Sejarah</Dropdown.Item>
             <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Struktur Perusahaan</Dropdown.Item>

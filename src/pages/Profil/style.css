@@ -8,6 +8,24 @@ img.profil {
     width: 200px;
 }
 
+.logoimg {
+    height: 300px;
+    width: 200px;
+}
+
+.leftok {
+    padding-left: 170px;
+    padding-top: 50px;
+}
+
+.paragraph {
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: large;
+}
+
 @media screen and (max-width: 600px){
 	img.responsive-img{
 		height: 400px;
@@ -16,6 +34,26 @@ img.profil {
 
     img.profil {
         height: 200px;
-        width: 200px;
+        width: 180px;
     }
+
+    .leftok {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .paragraph {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: left;
+        font-size: small;
+        margin-bottom: 100px;
+    }
+
+    .logoimg {
+        height: 150px;
+        width: 100px;
+        margin-top: 50px;
+    }
+
 }

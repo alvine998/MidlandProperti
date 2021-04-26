@@ -23,9 +23,9 @@ const Sidebars = (props) => {
             <Dropdown.Item href="/profil">Profil</Dropdown.Item>
             <Dropdown.Item href="/visimisi">Visi & Misi</Dropdown.Item>
             <Dropdown.Item href="/sejarah">Sejarah</Dropdown.Item>
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Struktur Perusahaan</Dropdown.Item>
+            {/* <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Struktur Perusahaan</Dropdown.Item> */}
             <Dropdown.Item href="/penghargaan">Penghargaan</Dropdown.Item>
-            <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Mitra</Dropdown.Item>
+            {/* <Dropdown.Item href="/" onClick={() => alert("Belum dapat diakses")}>Mitra</Dropdown.Item> */}
           </Dropdown.Menu>
         </Dropdown>
         {/* <button className="dropdown-btn" onClick={""}>Profil Kami
@@ -39,8 +39,8 @@ const Sidebars = (props) => {
           <a onClick={() => alert("Belum dapat diakses")} href="/">Penghargaan</a>
           <a onClick={() => alert("Belum ada mitra")} href="/mitra">Mitra</a>
         </div> */}
-        <a onClick={() => alert("Belum ada berita")} href="/">Berita</a>
-        <a onClick={() => alert("Belum ada lowongan")} href="/">Karir</a>
+        <a onClick={() => alert("Belum ada berita")} href="#">Berita</a>
+        <a onClick={() => alert("Belum ada lowongan")} href="#">Karir</a>
         <a href="/investasi">Investasi</a>
         {/* <button class="dropdown-btn">Galeri
           <ExpandMore/>

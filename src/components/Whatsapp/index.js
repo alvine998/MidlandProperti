@@ -5,7 +5,7 @@ const StickyWhatsapp = () => {
   return (
     <div>
       <a
-        href="https://api.whatsapp.com/send?phone=6281322986243&text=Assalamualaikum Saya Lihat Dari Web Midlandproperti.com"
+        href="https://api.whatsapp.com/send?phone=6282122156316&text=Assalamualaikum Saya Lihat Dari Web Midlandproperti.com"
         class="float"
         target="_blank"
       >

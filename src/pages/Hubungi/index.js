@@ -86,6 +86,7 @@ class Hubungi extends Component {
               textAlign: "center",
               padding: 20,
               backgroundColor: "white",
+              paddingBottom: 50
             }}
           >
               {/* <Form style={{paddingLeft:200, paddingRight:200}}>
@@ -106,7 +107,7 @@ class Hubungi extends Component {
                 </Button>
               </Form> */}
               <h2>Silahkan Menghubungi Nomor Dibawah ini:</h2>
-              <h3>Ikhna Abdul Kholik : 081322986243</h3>
+              <h3>Ikhna Abdul Kholik : 082122156316</h3>
               <h3>Sigit Muhammad : 082121951421</h3>
               <hr/>
               <h2>Atau Hubungi Email Dibawah ini:</h2>

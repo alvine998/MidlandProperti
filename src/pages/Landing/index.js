@@ -60,12 +60,12 @@ class Landing extends Component {
 				<Sidebars />
 				<div class="main">
 					<StickyWhatsapp />
-					<img
+					{/* <img
 						className="responsive-img"
 						src={home1}
 						alt="banner"
 						// style={{ height: 660, width: "100%" }}
-					/>
+					/> */}
 					{/* <h2 style={{ textAlign: "center" }}>PROMO</h2>
           <div className="padd">
             <CardDeck>
@@ -174,10 +174,10 @@ class Landing extends Component {
           </div> */}
 
 					{/* Carousel Promo */}
-					<div style={{ paddingTop: 50 }}>
-						<div style={{ paddingBottom: 20 }}>
+					<div style={{ paddingTop: 0 }}>
+						{/* <div style={{ paddingBottom: 20 }}>
 							<h2 style={{ textAlign: 'center' }}>INFORMATION</h2>
-						</div>
+						</div> */}
 						<Carousel interval={2000}>
 							<Carousel.Item>
 								<img className="d-block w-100" src={promo1} alt="First slide" style={{ height: 900 }} />
@@ -217,13 +217,13 @@ class Landing extends Component {
 								<Card>
 									<Card.Img id="myImg" variant="top" src={warakas300} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title>Warakas 3x9,5</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas 3x9,5</Card.Title>
 									</Card.Body>
 								</Card>
 								<Card>
 									<Card.Img variant="top" src={warakas500} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title>Warakas 5x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas 5x10</Card.Title>
 									</Card.Body>
 								</Card>
 							</CardGroup>
@@ -245,13 +245,13 @@ class Landing extends Component {
 								<Card>
 									<Card.Img id="myImg" variant="top" src={sw470} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title>Swasembada 4x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Swasembada 4x10</Card.Title>
 									</Card.Body>
 								</Card>
 								<Card>
 									<Card.Img variant="top" src={sw570} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title>Swasembada 5x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Swasembada 5x10</Card.Title>
 									</Card.Body>
 								</Card>
 							</CardGroup>

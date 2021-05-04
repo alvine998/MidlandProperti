@@ -39,8 +39,8 @@ const Sidebars = (props) => {
           <a onClick={() => alert("Belum dapat diakses")} href="/">Penghargaan</a>
           <a onClick={() => alert("Belum ada mitra")} href="/mitra">Mitra</a>
         </div> */}
-        <a onClick={() => alert("Belum ada berita")} href="#">Berita</a>
-        <a onClick={() => alert("Belum ada lowongan")} href="#">Karir</a>
+        {/* <a onClick={() => alert("Belum ada berita")} href="#">Berita</a> */}
+        <a href="/karir">Karir</a>
         <a href="/investasi">Investasi</a>
         {/* <button class="dropdown-btn">Galeri
           <ExpandMore/>

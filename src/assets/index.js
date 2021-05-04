@@ -50,10 +50,12 @@ import cardaw2 from './images/award/cardaw2.png';
 import sky3 from './images/sky3.jpg';
 import invest1 from './images/invest1.png';
 import invest2 from './images/invest2.png';
+import market from './images/marketing.jpg';
 
 
 export {
   perum,
+  market,
   sky3,
   invest1,
   invest2,

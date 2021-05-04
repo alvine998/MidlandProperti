@@ -13,6 +13,7 @@ import Papanggo from './pages/Papanggo';
 import Cilincing from './pages/Cilincing';
 import Penghargaan from './pages/Award';
 import Investasi from './pages/Investasi';
+import Karir from './pages/Karir';
 
 
 function App() {
@@ -54,6 +55,9 @@ function App() {
         </Route>
         <Route exact path="/investasi">
           <Investasi/>
+        </Route>
+        <Route exact path="/karir">
+          <Karir/>
         </Route>
       </Switch>
     </Router>

@@ -24,7 +24,9 @@ import {
 	sw570,
 	warakas300,
 	warakas500,
-	award1
+	award1,
+	warakasdepan,
+	warakasbelakang
 } from '../../assets';
 import StickyWhatsapp from '../../components/Whatsapp';
 import axios from 'axios';
@@ -215,15 +217,15 @@ class Landing extends Component {
 							</center>
 							<CardGroup>
 								<Card>
-									<Card.Img id="myImg" variant="top" src={warakas300} style={{ height: 700 }} />
+									<Card.Img id="myImg" variant="top" src={warakasdepan} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Warakas 3x9,5</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas Mini Cluster</Card.Title>
 									</Card.Body>
 								</Card>
 								<Card>
-									<Card.Img variant="top" src={warakas500} style={{ height: 700 }} />
+									<Card.Img variant="top" src={warakasbelakang} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Warakas 5x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas Mini Cluster</Card.Title>
 									</Card.Body>
 								</Card>
 							</CardGroup>

@@ -33,8 +33,7 @@ class Sejarah extends Component {
                 <h2>PT Midland Kreator Properti</h2>
                 <img src={sejarah} className="responsive-logo"/>
                 <div>
-                  <img src={flowsej} className="imgSej"/>
-                  <h2>Awal Mula</h2>
+                <h2>Awal Mula</h2>
                   <div>
                     <h4 className="para1">
                       Pada tahun 2020 PT Karya Cipta Property didirikan sebagai perusahaan yang bergerak di bidang
@@ -47,6 +46,8 @@ class Sejarah extends Component {
                       dibangun dengan 12 project berbeda.
                     </h4>
                   </div>
+                  <img src={flowsej} className="imgSej"/>
+                  
                 </div>
           </div>
           <Footers/>

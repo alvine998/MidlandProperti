@@ -16,7 +16,7 @@ const Footers = () => {
             Kantor Pusat <br />
             Midland Properti Office
             <br />
-            Jl. Tenggiri No.17, Tanjung Priok, <br />
+            Jl. Warakas 7 Gg.8 No.85 RT.01 RW.11, Tanjung Priok, <br />
             Jakarta Utara, Indonesia 14330 <br />
             Telp: 081322986243 <br />
             info@midlandproperti.com

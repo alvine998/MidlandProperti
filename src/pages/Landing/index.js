@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import Sidebars from '../../components/Sidebar';
-import ExpandMore from '@material-ui/icons/ExpandMore';
-import Instagram from '@material-ui/icons/Instagram';
-import YouTube from '@material-ui/icons/YouTube';
 import { CardDeck, Card, CardGroup, Carousel } from 'react-bootstrap';
 import './style.css';
 import Footers from '../../components/Footer';
@@ -35,7 +32,12 @@ import ArtikelDataService from '../../services/artikel.service';
 class Landing extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {};
+		this.state = {
+			image1:'https://lh3.google.com/u/0/d/1WUfckD67lR5QYmdoIsNZa9Trd3_2LpAw=w1366-h625-iv1',
+			image2:'https://lh3.google.com/u/0/d/12HtT0EbgTxB97XOI15ztcQX0ZuNn9xPI=w1366-h625-iv1',
+			image3:'https://lh3.google.com/u/0/d/1vZo70AT-vaA0CYx3YFs4tFM7pVgQdzdL=w1366-h625-iv1',
+			image4:'https://lh3.google.com/u/0/d/103KgLBo9mvknEf9OjAh7P8Gnb9HSjYiW=w1366-h625-iv1'
+		};
 		this.retriveArtikel = this.retriveArtikel.bind(this);
 	}
 
@@ -182,12 +184,12 @@ class Landing extends Component {
 						</div> */}
 						<Carousel interval={2000}>
 							<Carousel.Item>
-								<img className="d-block w-100" src={promo1} alt="First slide" style={{ height: 900 }} />
+								<img className="d-block w-100" src={this.state.image1} alt="First slide" style={{ height: 900 }} />
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100"
-									src={pricelist}
+									src={this.state.image3}
 									alt="First slide"
 									style={{ height: 900 }}
 								/>
@@ -217,15 +219,15 @@ class Landing extends Component {
 							</center>
 							<CardGroup>
 								<Card>
-									<Card.Img id="myImg" variant="top" src={warakasdepan} style={{ height: 700 }} />
+									<Card.Img id="myImg" variant="top" src={this.state.image1} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Warakas Mini Cluster</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas Tahap 7</Card.Title>
 									</Card.Body>
 								</Card>
 								<Card>
-									<Card.Img variant="top" src={warakasbelakang} style={{ height: 700 }} />
+									<Card.Img variant="top" src={this.state.image2} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Warakas Mini Cluster</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Warakas Tahap 7</Card.Title>
 									</Card.Body>
 								</Card>
 							</CardGroup>
@@ -245,15 +247,15 @@ class Landing extends Component {
 							</center>
 							<CardGroup>
 								<Card>
-									<Card.Img id="myImg" variant="top" src={sw470} style={{ height: 700 }} />
+									<Card.Img id="myImg" variant="top" src={this.state.image3} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Swasembada 4x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Swasembada Tahap 4</Card.Title>
 									</Card.Body>
 								</Card>
 								<Card>
-									<Card.Img variant="top" src={sw570} style={{ height: 700 }} />
+									<Card.Img variant="top" src={this.state.image4} style={{ height: 700 }} />
 									<Card.Body>
-										<Card.Title style={{textAlign:'center'}}>Swasembada 5x10</Card.Title>
+										<Card.Title style={{textAlign:'center'}}>Swasembada Tahap 4</Card.Title>
 									</Card.Body>
 								</Card>
 							</CardGroup>

@@ -25,47 +25,23 @@ class Hubungi extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nama:'',
-      email:'',
-      pesan:'',
+      collection:[]
     };
-    this.handleNama = this.handleNama.bind(this);
-    this.handleEmail = this.handleEmail.bind(this);
-    this.handlePesan = this.handlePesan.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
-
-  handleNama = (event) => {
-    this.setState({nama: event.target.value})
-  }
-  handleEmail = (event) => {
-    this.setState({email: event.target.value})
-  }
-  handlePesan = (event) => {
-    this.setState({pesan: event.target.value})
-  }
-  handleSubmit = (event) => {
-    event.preventDefault();
-
-    axios({
-      method:"POST",
-      url:"http://localhost:8000/pesan/",
-      data: this.state
-    }).then((response) => {
-      if(response.data.status === 'success'){
-        alert("Message sent");
-        this.resetForm()
-      } else if(response.data.status === 'fail'){
-        alert("Message failed to sent");
+  
+  getDataInfo = () => {
+    axios.get(`http://localhost:4000/infos/`)
+    .then(
+      res => {
+        const collection = res.data;
+        console.log(collection)
+        this.setState({collection})
       }
-    });
+    )
   }
-  resetForm() {
-    this.setState({
-      nama:'',
-      email:'',
-      pesan:'',
-    })
+
+  componentDidMount(){
+    this.getDataInfo();
   }
   render() {
     return (
@@ -107,8 +83,13 @@ class Hubungi extends Component {
                 </Button>
               </Form> */}
               <h2>Silahkan Menghubungi Nomor Dibawah ini:</h2>
-              <h3>Ikhna Abdul Kholik : 082122156316</h3>
-              <h3>Sigit Muhammad : 082121951421</h3>
+              {
+                this.state.collection.map((element,i) => {
+                  return(<div key={i}>
+                    <h3>{element.nama} : {element.nohp}</h3>
+                  </div>)
+                })
+              }
               <hr/>
               <h2>Atau Hubungi Email Dibawah ini:</h2>
               <h3>info@midlandproperti.com</h3>
